@@ -10,7 +10,9 @@ body, html{
   font-size: 1.3em;
 }
 
-.header {
+/*Réglage du header */
+
+header {
   padding-top: 2%;
   margin-top:-2%;
   width: 100%;
@@ -18,9 +20,17 @@ body, html{
   box-shadow: 0px 2px 2px grey;
 }
 
+/* Centrage du texte */
+header h1 {
+  text-align: center;
+  text-shadow: -2px 1px white;
+}
+
 h1 {
   padding-left: 5%;
 }
+
+/* Menu */
 
 nav {
   width: 100%;
@@ -38,6 +48,8 @@ nav a:hover {
   background-color: rgb(141, 135, 255);
 }
 
+
+/* Réglage du contenu de la page */
 #content {
   text-align: center;
   margin-left: -3%;
@@ -64,7 +76,17 @@ nav a:hover {
   margin-bottom: 1%;
 }
 
-/**About**/
+/************Infos en pied de page*******/
+
+#info img {
+  width: 3em;
+}
+
+#info {
+  margin-bottom: -3%;
+  margin-top: 3%;
+}
+/***************************About***********************************/
 #desc {
   margin: 5%;
   max-width: 100%;
@@ -74,9 +96,39 @@ nav a:hover {
   width: 10%;
   border-radius: 100%;
   display: inline-block;
-  float: left;
-  margin-right: 5%;
+  box-shadow: 1px 1px 1px 1px grey;
 }
 
-#desc p{
+/************************Contact****************************/
+
+
+#contact {
+  text-align: left;
+  margin-top: 2%;
+  margin-left: 25%;
+}
+
+.contact_line {
+  text-align: left;
+  left: 0;
+  margin-top: 5%;
+
+}
+
+.contact_line img{
+  float: left;
+
+  height: 1.2em;
+}
+
+.contact_line a{
+  text-decoration: none;
+}
+
+.contact_line p{
+  color: rgb(0, 131, 154);
+  margin-left: 5%;
+  font-weight: bold;
+  font-size: 0.8em;
+  height: 1.2em;
 }
